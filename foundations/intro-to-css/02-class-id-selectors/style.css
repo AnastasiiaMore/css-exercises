@@ -1,0 +1,19 @@
+.p {
+    background-color: rgb(212, 111, 111);
+    font-family: "Verdana", sans-serif;
+}
+
+#div1 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.p3 {
+    font-size: 24px;
+}
+
+#div2 {
+    background-color: rgba(111, 212, 111, 1.0);
+    font-size: 24px;
+    font-weight: bold;
+}
