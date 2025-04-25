@@ -19,7 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 16px;
 }
 
 input {
@@ -29,51 +29,44 @@ input {
   width: 400px;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
   
 }
 
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(87, 85, 85);
-  display: flex;
-  margin: 8px;
+  color: #666;
+  /*display: flex;
+  margin: 8px;*/
 }
 
-li {
-  display: flex;
-  padding: 0%;
-  /*gap: 12px;*/
-}
-
-.right-links {
-  margin-right: 8px;
-}
-
-.left-links {
-  /*margin-left: 8px;*/
-}
 
 .footer {
-  display: flex;
-  background-color: rgb(221, 220, 220);
-  justify-content: space-between;
+  /*display: flex;*/
+  background-color: #eee;
+  /*justify-content: space-between;
   align-items: flex-end;
-  padding: 0px;
+  padding: 0px;*/
 }
 
 .content {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 12px;
-  margin: auto;
+  gap: 16px;
+  /*margin: auto;*/
 }
