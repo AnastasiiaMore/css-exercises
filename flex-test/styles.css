@@ -1,0 +1,60 @@
+.item.ball {
+    flex-shrink: 0;
+}
+
+body {
+    background: hsl(210deg, 30%, 12%);
+    color: hsl(0deg 0%, 100%)
+}
+
+.wrapper {
+    display: flex;
+    gap: 8px;
+}
+
+.item {
+    height: 32px;
+    border: 2px solid hsl(210deg, 8%, 50%);
+    background: hsl(210deg, 15%, 20%);
+}
+
+.item.stretch {
+    width: 300px;
+    flex-grow: 1;
+    border-radius: 16px;
+}
+
+.item.ball {
+    width: 32px;
+    border-radius: 50%;
+}
+
+nav {
+    border: 2px solid #eeeeee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    padding: 10px;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    /*flex: auto;*/
+}
+
+.push-right {
+    margin-left: auto;
+}
